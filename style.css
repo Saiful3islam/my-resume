@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+    
+}
+.text-center{
+    text-align: center;
+}
+.full-web{
+    border: 1px rgb(255, 255, 255) solid;
+    width: auto;
+    margin: auto;
+}
+.fixed-width{
+    width: 700px;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: 0px 10px 30px black;
+}
+.fff{
+    width: 700px;
+    margin: auto;
+    padding-right: 2px;
+    padding-bottom: 3px;
+    
+
+}
+.bg-style{
+float: right;
+width: 170px;
+height: 330px;
+
+background-color: #fa6559;
+
+
+}
+.style{
+    float: right;
+    width: 40%;
+}
+.nam{
+float: left;
+width: 50%;
+margin-top: 50px;
+margin-left: 20px;
+
+}
+.nam h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imgs img{
+    max-width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    right: -19px;
+}
+.imgs{
+    height: 180px;
+    width: 180px;
+    position: relative;
+}
+.content1 h1{
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #fa6559;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    
+}
+.content1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content2{
+    margin-top: 40px;
+}
+.content2 ul{
+list-style: none;
+}
+.content2 ul li:nth-child(1) a::before{
+    content:'\f095';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    margin-top: 5px;
+    
+}
+.content2 ul li:nth-child(2) a::before{
+    content:'\f0e0';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+}
+.content2 ul li:nth-child(3) a::before{
+    content:'\f17e';
+    font-family: "Font Awesome 5 Brands";
+    
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+
+}
+.content2 ul li:nth-child(4) a::before{
+    content:'\f08c';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+
+}
+.content2 ul li:nth-child(5) a::before{
+    content:'\f39e';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+
+}
+.content2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+
+
+
+.content2 ul li img{
+    margin-right: 10px;
+
+}
+.content2 h1{
+    color: #fff;
+    font-size: 15px;
+    background-color: #fa6559;
+    display: inline-block;
+    padding: 13px;
+    padding-right: 100px;
+    
+}
+.content3 h1{
+    color: #fff;
+    font-size: 15px;
+    background-color: #fa6559;
+    display: inline-block;
+    padding: 13px;
+    padding-right: 125px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.content3 ul li{
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.content4 h1{
+    color: #fff;
+    font-size: 15px;
+    background-color: #fa6559;
+    display: inline-block;
+    padding: 13px;
+    padding-right: 125px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 373px;
+    left: 887px;
+}
+
+.content4 ul{
+    position: absolute;
+    top: 435px;
+    left: 918px;
+}
+.content4 ul li{
+    text-transform: capitalize;
+}
+.content5 h1{
+    color: #fff;
+    font-size: 15px;
+    background-color: #fa6559;
+    display: inline-block;
+    padding: 13px;
+    text-transform: uppercase;
+    padding-right:115px ;
+    margin-bottom: 10px;
+}
+.content5{
+    position: absolute;
+    top: 554px;
+    left: 887px;
+    
+}
+
+.content5 p{
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+.content3 ul{
+    margin-bottom: 100px;
+}
+.bottom{
+    background-color:#fa6559 ;
+    height: 60px;
+    position: absolute;
+    top: 894px;
+    left: 609px;
+}
